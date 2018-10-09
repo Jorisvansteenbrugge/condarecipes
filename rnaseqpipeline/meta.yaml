@@ -1,0 +1,19 @@
+package:
+  name: rnaseqpipeline
+  version: 1.0
+
+build:
+  number: 0
+
+requirements:
+  run:
+    - python
+    - stringtie >=1.2.3
+    - tandemrepeatfinder
+    - repeatmodeler
+    - blast
+    - repeatmasker
+    - infernal
+
+about:
+  summary: This is a simple meta-package

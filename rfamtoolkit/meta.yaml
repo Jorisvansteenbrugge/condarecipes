@@ -1,0 +1,16 @@
+package:
+  name: rfamtoolkit 
+  version: "1.0"
+
+source:
+    fn: rfam-toolkit-master.zip 
+    url: https://github.com/Rfam/rfam-toolkit/archive/master.zip
+build:
+  number: 1
+
+requirements:
+  run:
+    - infernal
+    - python 2.7
+about:
+  summary: Rfam-toolkit

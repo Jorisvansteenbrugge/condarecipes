@@ -1,0 +1,16 @@
+package:
+  name: tandemrepeatfinder 
+  version: "4.09"
+
+source:
+    fn: trf409.linux64
+    url: http://jorisvansteenbrugge.github.io/software/trf409.linux64
+
+build:
+  number: 0
+
+requirements:
+  run:
+
+about:
+  summary: Tandem Repeats Finder
