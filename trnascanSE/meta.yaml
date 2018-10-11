@@ -1,5 +1,5 @@
 package:
-  name: tRNAscanSE 
+  name: trnascan-se 
   version: "2.0"
 
 source:

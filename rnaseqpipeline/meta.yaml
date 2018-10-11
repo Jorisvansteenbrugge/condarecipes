@@ -14,6 +14,12 @@ requirements:
     - blast
     - repeatmasker
     - infernal
+    - rfamtoolkit
+    - trnascan-se
+    - maker >= 2.31.10
+    - snap
+    - augustus
+    - interproscan
 
 about:
-  summary: This is a simple meta-package
+  summary: This is a meta-package for the RNAseq pipeline

@@ -1,0 +1,16 @@
+package:
+  name: interproscan 
+  version: "5.31"
+
+source:
+    fn: interproscan-5.31-70.0-64-bit.tar.gz
+    url: ftp://ftp.ebi.ac.uk/pub/software/unix/iprscan/5/5.31-70.0/interproscan-5.31-70.0-64-bit.tar.gz
+build:
+  number: 0
+
+requirements:
+  run:
+    - infernal
+    - python 
+about:
+  summary: Rfam-toolkit
